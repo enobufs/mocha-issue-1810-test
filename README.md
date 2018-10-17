@@ -12,6 +12,8 @@ the required modules to enable async prepare/unprepare features.
 
 > See `./test/prpare.js` which is specified with `--require` flag in ./test/mocha.opts.
 
+The proposed changes in mocha can be found in [this link](https://github.com/enobufs/mocha/commit/451ba4459b95cd34a888aefdbd12ebbfab98ae48).
+
 ## How to run tests
 
 Check out enobufs/mocha and enobufs/mocha-issue-1810-test in the same folder.
