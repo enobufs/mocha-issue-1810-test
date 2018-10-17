@@ -1,0 +1,18 @@
+{
+  "name": "mocha-test",
+  "version": "0.0.1",
+  "description": "Mocha test example for prepare/unprepare feature.",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha"
+  },
+  "keywords": [
+    "mocha",
+    "prepare"
+  ],
+  "author": "enobufs",
+  "license": "MIT",
+  "dependencies": {
+    "mocha": "file:../mocha"
+  }
+}
