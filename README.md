@@ -1,6 +1,10 @@
 # mocha-issue-1810-test
 
 ## Summary of solution
+This is to demonstrate the proposed solutions to mocha [issue 1810](https://github.com/mochajs/mocha/issues/1810).
+The idea is not to add new arguments to mocha script, but to allow returning functions from
+the required modules to enable async prepare/unprepare features.
+
 * Check `required` modules have onPrepared or onUnprepared functions.
 * Call all of onPrepared functions and wait until all the returned promises resove.
 * Mocha.run()
