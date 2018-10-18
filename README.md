@@ -5,8 +5,8 @@ This is to demonstrate the proposed solutions to mocha [issue 1810](https://gith
 The idea is not to add new arguments to mocha script, but to allow returning functions from
 the required modules to enable async prepare/unprepare features.
 
-* Check `required` modules have onPrepared or onUnprepared functions.
-* Call all of onPrepared functions and wait until all the returned promises resove.
+* Check if `required` modules have onPrepared or onUnprepared functions.
+* Call all of onPrepared functions and wait until all the returned promises resolve.
 * Mocha.run()
 * Call all of onUnprepare functions and wait until all the returned promises resolve.
 
