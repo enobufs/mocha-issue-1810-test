@@ -3,6 +3,8 @@
 const assert = require('assert');
 const path = require('path');
 
+global.test1touched = true;
+
 describe('mocha-test', function() {
   it('prepare.js must be loaded by now', function() {
     // prepare.js has been loaded
