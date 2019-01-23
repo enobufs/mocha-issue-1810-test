@@ -13,6 +13,6 @@
   "author": "enobufs",
   "license": "MIT",
   "dependencies": {
-    "mocha": "file:../mocha"
+    "mocha": "^6.0.0-1"
   }
 }
